@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+}
+.main-picture {
+  background-image: url("../images/hero-splash-roommates-fun.jpg");
+  background-size: cover;
+  height: 300px;
+  min-height: 500px;
+  padding: 300px;
+}
+
+.column-container {
+  font-size: 0px;
+}
+
+
+.main-picture h1, h2 {
+  color: #fff;
+  background-color: rgba(0,0,0,.5);
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.main-picture input {
+  padding: 10px 30px 10px 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: #76dbc8;
+  color: white;
+  width: 100px;
+  font-size: medium;
+  margin-left: 500px;
+}
+
+.column-city p {
+  background-color: #424040;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 0px;
+}
+
+.column-city {
+  font-size: medium;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  padding: 20px 20px 0px 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.column-city img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+}
+
+
+.more-cities p {
+  color: #d65b2a;
+  border: #d65b2a solid 2px;
+  font-size: medium;
+  padding: 2px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.second-column-container {
+  font-size: 0px;
+}
+
+.Mission-Dis {
+  width: 25%;
+  border: gray 2px solid;
+  display: inline-block;
+}
+
+.Mission-Dis img{
+  width: 100%;
+  display: block;
+
+}
+
+.Mission-Dis p {
+  font-size: small;
+  font-weight: bold;
+  padding: 2;
+  padding-left: 20px;
+  display: block;
+
+}
+
+.Only-Verified {
+  width: 75%;
+  display: inline-block;
+  font-size: small;
+  vertical-align: top;
+  background-color: #e5e3e3;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  font-weight: 100;
+}
+
+.Only-Verified h1 {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.footer-container {
+  background-color: #3f3e3e;
+  font-size: 10px;
+  border-bottom: white solid 2px;
+
+}
+
+.Company {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Media {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Directory {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-container li {
+  display: block;
+  width: 100%;
+  color: #fff;
+  vertical-align: top;
+}
+.column-try {
+  background-color: #3f3e3e;
+}
+.icon-container{
+  width: 40%;
+  background-color: #3f3e3e;
+  margin-left: auto;
+}
