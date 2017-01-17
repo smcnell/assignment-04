@@ -6,11 +6,6 @@ body {
   font-family: "Libre Franklin", "Helvetica", "sans-serif";
 }
 
-a {
-  text-decoration: none;
-}
-
-
 .orange-container {
   background-color: #F55E05;
   font-size: 0;
@@ -37,21 +32,14 @@ a {
   padding: 5px;
 }
 
-.column-top a {
-  color: #fff;
-}
 
 .main-picture {
   background-image: url("../images/hero-splash-roommates-fun.jpg");
   background-size: cover;
   height: 300px;
   min-height: 500px;
-  padding-top: 100px;
-}
+  padding: 300px;
 
-
-.black-bar {
-  background-color: rgba(0,0,0,.5);
 }
 
 .column-container {
@@ -60,23 +48,15 @@ a {
 }
 
 
-.main-picture h1 {
+.main-picture h1, h2 {
   color: #fff;
+  background-color: rgba(0,0,0,.5);
   text-align: center;
-  font-size: 40px;
-  font-weight: 200;
-}
-
-
-.main-picture h2 {
-  color: #fff;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 100;
+  font-size: 30px;
 }
 
 .main-picture input {
-  padding: 10px 120px 10px 120px;
+  padding: 10px 30px 10px 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -88,13 +68,12 @@ a {
 
 button {
   background-color: #76dbc8;
-  padding: 8px 30px 8px 30px;
   color: white;
   width: 100px;
   font-size: medium;
   position: absolute;
-  top: 0;
-  right: 438px;
+  right: 0;
+  bottom: 0;
 
 }
 
@@ -237,21 +216,7 @@ button {
   width: 100%;
   color: #fff;
   vertical-align: top;
-  line-height: 20px;
 }
-
-.Company a {
-  color: #fff;
-}
-
-.Media a {
-  color: #fff;
-}
-
-.Directory a {
-  color: #fff;
-}
-
 .column-try {
   background-color: #3f3e3e;
 }
@@ -284,10 +249,9 @@ button {
   vertical-align: top;
 }
 
-.Tiffany-words a {
+.Tiffany-words span {
   color: #F55E05;
 }
-
 
 .Tiffany-photo {
   width: 40%;
